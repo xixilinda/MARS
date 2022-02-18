@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="brandname">
+            <span>REBUILDING MARS</span>
+        </div>
+    </header>
+    <nav id="menu">
+        <a href="index.html"><div class="menu-box"><span>Home</span></div></a>
+        <a href="registeration.html"><div class="menu-box selected"><span>Registration</span></div></a>
+        <a href="knowing.html"><div class="menu-box"><span>Knowing About Building Mars</span></div></a>
+        <a href="activity.html"><div class="menu-box"><span>Choosing Assignment</span></div></a>
+        <a href="forum.html"><div class="menu-box"><span>Forums</span></div></a>
+    </nav>
+    
+    <main>
+        <div class="container_one_col">
+
+            <div class="title-one-col">
+                <span>Personal Information</span>
+            </div>
+
+            <div class="container_form">
+                <form action="">
+                    <div id="form_content">
+                        <div id="form_left">
+                            <div class="row">    
+                                <label class="registerlabel" for="name">Name:</label>
+                                <input type="text" id="Name" name="name" placeholder="Your name..">                                
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Birth">Birth:</label>
+                                <input type="text" id="Birth" name="Birth" placeholder="Your Birth..">
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Gender">Gender:</label>
+                                <input type="text" id="Gender" name="Gender" placeholder="Your Grender..">
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Nation">Nation:</label>
+                                <input type="text" id="Nation" name="Nation" placeholder="Your Nation..">
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Phone Number">Phone Number:</label>
+                                <input type="text" id="Phone Number" name="Phone Number" placeholder="Your Phone Number..">
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Address">Address:</label>
+                                <input type="text" id="Address" name="Address" placeholder="Your Address..">
+                            </div>
+                            <div class="row">
+                                <label class="registerlabel" for="Job">Job:</label>
+                                <input type="text" id="Job" name="Job" placeholder="Your Address..">  
+                            </div>
+                        </div>
+                        <div id="form_right">
+                            <div id="regist-row1">
+                                <label class="registerlabel" for="introduction_job">Introduction to your job/research area</label>
+                                <textarea id="introduction_job" name="introduction" placeholder="Write something.." ></textarea>
+                            </div>
+                            <div id="regist-row2">
+                                <label class="registerlabel" for="Hobby">Introduction to your hobbies</label>
+                                <textarea id="Hobby" name="Hobby" placeholder="Write something.." ></textarea>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div id="form_button" onclick="RegistersubClickfunction(this)"><span>Submit</span></div>
+                
+                </form>
+
+            </div>   
+
+        </div>
+        <div class="pop-up">
+            <img src="img/pop.png" alt="saved">
+            <div id="return_button" onclick="RegisterreClickfunction(this)"><span>Return</span></div>
+        </div>
+
+    </main>
+    
+    <footer>
+
+        <h2>contact</h2>
+        <p>Author: Yangxi Wang</p>
+        <p>Number:xxxxxxxxxx</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="brandname">
+            <span>REBUILDING MARS</span>
+        </div>
+    </header>
+    <nav id="menu">
+        <a href="index.html"><div class="menu-box"><span>Home</span></div></a>
+        <a href="registeration.html"><div class="menu-box"><span>Registration</span></div></a>
+        <a href="knowing.html"><div class="menu-box"><span>Knowing About Building Mars</span></div></a>
+        <a href="activity.html"><div class="menu-box"><span>Choosing Assignment</span></div></a>
+        <a href="forum.html"><div class="menu-box selected"><span>Forums</span></div></a>
+    </nav>
+    <main>
+        <div class="container_one_col">
+
+            <div class="title-one-col">
+                <span>Personal Information</span>
+            </div>
+
+            <div class="container_forum">
+                <noscript><h1>JavaScript is not available! Please check your browser!</h1></noscript>
+                <div id="user-posterbutton">
+                    <div id="userinfo">Hello！</div>
+                    <div id="poster_button" onclick="ForumposterClickfunction(this)"><span>Make a Poster</span></div>
+                </div>
+                
+                <div class="chat">
+                    <div class="user">
+                        <img src="img/pig.jpg" alt="user">
+                        <span>Lisa</span>
+                    </div>                    
+                    <span>I thick we can work together......</span>
+                </div>
+                <div class="chat">
+                    <div class="user">
+                        <img src="img/butterfly.jpg" alt="user">
+                        <span>Lisa</span>
+                    </div>                    
+                    <span>The best way to explore Mars is......</span>
+                </div>
+
+            </div>   
+
+        </div>
+
+        <div class="container-poster">           
+            <div class="container_forum">
+                <form action=""></form>                       
+                    <div id="poster-content">
+                        <label class="forumlabel" for="Poster">Poster</label>
+                        <textarea id="poster" name="poster" placeholder="Write something.." ></textarea>
+                    </div>
+                </form>
+                <div id="poster_button" onclick="ForumsubmitClickfunction(this)"><span>Submit</span></div>                     
+            </div>                        
+        </div>
+
+        <div class="pop-up">
+            <img src="img/pop.png" alt="saved">
+            <div id="return_button" onclick="ForumreClickfunction(this)"><span>Return</span></div>
+        </div>
+
+    </main>
+    
+    <footer>
+
+        <h2>contact</h2>
+        <p>Author: Yangxi Wang</p>
+        <p>Number:xxxxxxxxxx</p>
+    </footer>
+
+    
+</body>
+</html>
